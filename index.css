@@ -1,0 +1,49 @@
+h1 {
+    background-color: aqua;
+    color: red;
+    text-align: center;
+    font-size: 10px;
+}
+/* Id Selector */
+#list1 {
+    background-color: black;
+    color: rgb(2,99,45);
+    background-image: url("images.jfif");
+}
+/* Class Selector */
+.list {
+    background-color: blue;
+    color: #ff6347;
+}
+
+a {
+    color: hotpink;
+    text-decoration: none;
+}
+/* pseudoclass */
+a:visited {   
+    color:green;
+}
+a:hover {
+    color: black;
+}
+a:active {
+    color:blue;
+
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+/* position = static , fixed , relative , absolute , sticky */
+#id1 {
+    max-width: 50px;
+    position: sticky;
+}
+select {
+    
+}
